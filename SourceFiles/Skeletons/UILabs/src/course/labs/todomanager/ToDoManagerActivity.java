@@ -13,7 +13,6 @@ import java.text.ParseException;
 import java.util.Date;
 
 import android.app.ListActivity;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -51,7 +50,6 @@ public class ToDoManagerActivity extends ListActivity {
 		getListView().setFooterDividersEnabled(true);
 
 		//TODO - Inflate footerView for footer_view.xml file
-
 		LayoutInflater inflater = getLayoutInflater();
 		TextView footerView = (TextView) inflater.inflate(R.layout.footer_view,null);
 
